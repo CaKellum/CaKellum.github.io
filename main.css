@@ -12,14 +12,10 @@ header{
 	position:fixed;
 	padding: 2%;
 }
-header span a{
-	font-size: 1em;
-	text-decoration: none;
-}
 .center{
 	position: relative;
 	padding: 1%;
-	margin: 1% 10%;
+	margin: 1% auto;
 	max-width: 75%;
 	background-color: #40531b;
 	border-radius: 5%;
@@ -27,6 +23,7 @@ header span a{
 .side{
 	position: relative;
 	background-color: #29339b;
+	margin-right: 80%;
 }
 img{
 	max-width: 2%;
@@ -36,4 +33,16 @@ a{
 }
 a:hover{
 	color:#99c240;
+}
+header span a{
+	font-size: 1em;
+	text-decoration: none;
+}
+.side a{
+	margin: 5% 2%;
+	border:1px solid black;
+}
+
+.side img{
+	max-width: 10%;
 }
