@@ -1,100 +1,13 @@
 html{
-	background-color:grey;
+ background-color: #40531b;
+ color: #adcad6;
 }
 body{
-	margin:6.5% auto;
-	display: flex;
-	flex-basis: 100%;
-	width :50%;
-	flex-flow: row wrap;
+	background-color: #99c240;
 }
-footer{
-	width:100%;
-	text-align: center;
-	background-color: grey;
+.center{
+	background-color: #40531b;
 }
-img{
-	max-width: 24px;
-	padding:0.25%;
+.side{
+	background-color: #29339b;
 }
-div>header{
-	font-weight: bold;
-}
-#objective{
-	display: flex;
-	flex-flow: row none;
-	margin: 2%;
-}
-#face{
-	max-width: 20%;
-	border:2px solid black;
-}
-#objective p{
-	padding: 5%;
-}
-#mainBody li{
-	padding:5%;
-}
-education info{
-	display: inline-block;
-	float: right;
-}
-education type{
-	font-weight: bold;
-}
-education name{
-	font-style:italic;
-}
-project{
-	margin:1%;
-	display: block;
-}
-project details{
-	display:inline-block;
-	float: right;
-}
-project summary{
-	font-weight: bold;
-}
-project p{
-	float: right;
-}
-job{
-	margin: 1%;
-	display: block;
-	padding:5% 5% 5% 0%;
-}
-job info{
-	display: block;
-	float: right;
-}
-job company{
-	font-style:italic;
-}
-#top{
-    width: 100%;
-    position: fixed;        
-    background: #333;
-    padding:1% 1% 1% 25%;
-    left:0;
-    top: 0;
-    color: #fff;
-}
-#top>contact>h1{
-	display: inline;
-}
-#mainBody{
-	flex-basis:68%;
-	padding:1%;
-	background-color:#e3dbcc ;
-}
-#sideBar{
-	flex-basis: 26%;
-	float:right;
-	padding:2%;
-	background-color: lightgrey;
-}
-.clear{
-	float: none;
-}
-
