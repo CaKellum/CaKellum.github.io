@@ -47,9 +47,6 @@ header span img{
 #side_links a:hover{
 	color: pink;
 }
-#side_links a::selection{
-	color: pink;
-}
 #side_links a img{
 	max-width: 10%;
 }
