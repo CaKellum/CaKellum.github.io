@@ -1,0 +1,51 @@
+html {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.content-main {
+    width: 50%;
+    margin: 1%;
+    height: 100%;
+}
+
+.content-left {
+    width: 20%;
+    margin: 1%;
+    height: 100%;
+}
+
+.content-right {
+    margin: 1%;
+    width: 20%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button-row img {
+    height: 50px;
+}
+
+#face {
+    padding: 1%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+}
